@@ -1,0 +1,16 @@
+{
+  "name": "discord-enable-devtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "zx ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "zx": "^5.2.0"
+  }
+}

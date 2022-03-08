@@ -14,7 +14,7 @@ You can enable it again by adding the following property to your desktop applica
 I made this project just to study some features of [zx](https://github.com/google/zx), as silly as it sounds, I learned a lot. I also did it because I imagine people must be asking themselves "Where is devtools?" I hope one way or another this helps you.
 
 
-## Using zx (Method 1)
+## Quick way, npx + zx (Method 1)
 
 Just run
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env zx
 
-import 'zx/globals';
-
 const osPaths = {
   darwin: `${os.homedir()}/Library/Application Support/discord/settings.json`,
   win32: `${os.homedir()}/AppData/discord/settings.json`,

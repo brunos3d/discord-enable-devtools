@@ -48,16 +48,10 @@ It's ready now just restart discord
 
 ## Using zx (Method 2)
 
-Install zx
+Just run
 
 ```sh
-npm i -g zx
-```
-
-Run the script
-
-```sh
-zx https://raw.githubusercontent.com/BrunoS3D/discord-enable-devtools/main/index.mjs
+npx zx https://raw.githubusercontent.com/BrunoS3D/discord-enable-devtools/main/index.mjs
 ```
 
 It's ready now just restart discord

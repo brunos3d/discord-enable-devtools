@@ -48,23 +48,16 @@ It's ready now just restart discord
 
 ## Using zx (Method 2)
 
-Clone project
+Install zx
 
 ```sh
-git clone git@github.com:BrunoS3D/discord-enable-devtools.git
-cd discord-enable-devtools
+npm i -g zx
 ```
 
-Install deps
+Run the script
 
 ```sh
-npm i
-```
-
-Run script
-
-```sh
-npm run start
+zx https://raw.githubusercontent.com/BrunoS3D/discord-enable-devtools/main/index.mjs
 ```
 
 It's ready now just restart discord

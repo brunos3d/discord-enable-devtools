@@ -13,9 +13,20 @@ You can enable it again by adding the following property to your desktop applica
 
 I made this project just to study some features of [zx](https://github.com/google/zx), as silly as it sounds, I learned a lot. I also did it because I imagine people must be asking themselves "Where is devtools?" I hope one way or another this helps you.
 
-## Manually enable (Method 1)
 
-### Open config file with vscode (or whatever you use)
+## Using zx (Method 1)
+
+Just run
+
+```sh
+npx zx https://raw.githubusercontent.com/BrunoS3D/discord-enable-devtools/main/index.mjs
+```
+
+It's ready now just restart discord
+
+## Manually enable (Method 2)
+
+Open config file with vscode (or whatever you use)
 
 Win
 
@@ -46,12 +57,3 @@ Just add the following property to the config file:
 
 It's ready now just restart discord
 
-## Using zx (Method 2)
-
-Just run
-
-```sh
-npx zx https://raw.githubusercontent.com/BrunoS3D/discord-enable-devtools/main/index.mjs
-```
-
-It's ready now just restart discord

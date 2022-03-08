@@ -6,7 +6,7 @@ const osPaths = {
   linux: `${os.homedir()}/.config/discord/settings.json`,
 };
 
-let configFile = osPaths[os.platform()];
+const configFile = osPaths[os.platform()];
 const config = await fs.readJson(configFile);
 config.DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING = true;
 await fs.writeJson(configFile, config, { spaces: 2 });

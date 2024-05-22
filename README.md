@@ -55,5 +55,5 @@ Just add the following property to the config file:
 }
 ```
 
-It's ready now just restart discord
+It's ready, now, just restart your Discord app
 

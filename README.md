@@ -34,10 +34,16 @@ Win
 code %appdata%/discord/settings.json
 ```
 
-Linux
+Linux (Deb)
 
 ```sh
 code ~/.config/discord/settings.json
+```
+
+Linux (Flatpak)
+
+```sh
+code ~/.var/app/com.discordapp.Discord/config/discord/settings.json
 ```
 
 macOS

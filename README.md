@@ -37,19 +37,33 @@ It's ready now just restart discord
 
 Open config file with vscode (or whatever you use)
 
-Win
+### Win
 
 ```sh
 code %appdata%/discord/settings.json
 ```
 
-Linux
+### Linux
+
+Standard config path:
 
 ```sh
 code ~/.config/discord/settings.json
 ```
 
-macOS
+Flatpak config path:
+
+```sh
+code ~/.var/app/com.discordapp.Discord/config/discord/settings.json
+```
+
+Snap config path:
+
+```sh
+code ~/snap/discord/current/.config/discord/settings.json
+```
+
+### macOS
 
 ```sh
 code ~/Library/Application Support/discord/settings.json
@@ -59,7 +73,7 @@ Just add the following property to the config file:
 
 ```json
 {
-  "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
+  "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true,
   // ...
 }
 ```

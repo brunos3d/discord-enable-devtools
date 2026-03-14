@@ -66,7 +66,7 @@ code ~/snap/discord/current/.config/discord/settings.json
 ### macOS
 
 ```sh
-code ~/Library/Application Support/discord/settings.json
+code "~/Library/Application Support/discord/settings.json"
 ```
 
 Just add the following property to the config file:
